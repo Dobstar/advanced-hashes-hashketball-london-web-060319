@@ -1,5 +1,5 @@
 # Write your code here!
- game_hash
+ def game_hash
 
   game_hash =
 
@@ -237,7 +237,6 @@
 
 
 
-end
 
 
 
@@ -423,11 +422,6 @@ end
 
 big_shoe_rebounds
 
-
-
-
-
-
-
-
-
+def most_points_scored(player)
+  player.max_by {|player, points| (points.fetch)}
+end 
